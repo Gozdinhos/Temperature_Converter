@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Allerta Stencil;
+text-align: center;
+
+}
+
+body {
+background-color: #F6B26B;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+.type_of_temperatures {
+
+  margin-top: 100px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+background-color: #FFFFFF;
+padding: 30px;
+font-family: Allerta Stencil;
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+}
+
+
+h2{
+color: #E69138;
+}
+
+.message {
+ align-self: flex-end;
+ text-align: center;
+ margin-top: 500px;
+ width:100%;
+
+     position:fixed;
+
+     bottom:0px;
+
+
+
+     z-index:9999;
+
+}
+
+
+
+input[type="number"] {
+-moz-appearance: textfield;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left:110px;
+}
