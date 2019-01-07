@@ -23,7 +23,6 @@ flex-wrap: wrap;
 .type_of_temperatures {
 
   margin-top: 100px;
-  margin-left: 80px;
   display: flex;
   flex-direction: column;
 
@@ -48,14 +47,9 @@ color: #E69138;
  text-align: center;
  margin-top: 500px;
  width:100%;
-
-     position:fixed;
-
-     bottom:0px;
-
-
-
-     z-index:9999;
+ position:fixed;
+ bottom:0px;
+ z-index:9999;
 
 }
 
@@ -69,6 +63,5 @@ input[type="number"] {
   width: 350px;
   height: 350px;
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left:110px;
+
 }
